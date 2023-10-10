@@ -1,0 +1,110 @@
+/*
+font-family: 'Orbitron', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.navbar {
+    background-color: #51206d;
+}
+
+.navbar-toggler {
+    background-color: #e5b8ffd0;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #2a113893;
+    color: #fff;
+}
+
+.navbar h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+#habilidades .nav-link.active:hover {
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+#habilidades .nav-link.active,
+#contato button,
+#projetos a.btn {
+    background-color: #51206d;
+    color: #fff;
+}
+
+div.card {
+    background-color: #e9e9e969;
+}
+
+#projetos a.btn {
+    width: 49%;
+}
+
+button.nav-link.text-start {
+    color: #9544c4;
+}
+
+#habilidades div {
+    background-color: #e9e9e9;
+}
+
+#habilidades .nav-link:hover {
+    color: #51206d;
+}
+
+textarea {
+    resize: none;
+}
+
+.redes-sociais li {
+    list-style: none;
+    display: inline;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+    color: #9544c4;
+}
+
+footer {
+    background-color: #c4c4c4;
+}
+
+@media (max-width:767px ) {
+    #sobre h2 {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    div.card {
+        background-color: #e9e9e969;
+        margin-bottom: 30px;
+    }
+
+    #projetos a.btn {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    #habilidades button.nav-link {
+        width: 49%;
+        background-color: #bbbbbb;
+        margin-bottom: 30px;
+    }
+
+    #contato button {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    
+    
+}
